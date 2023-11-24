@@ -1,0 +1,9 @@
+.upAvatarBox {
+    display: flex;
+    position: relative;
+    .spinner {
+        position: absolute;
+        bottom: 0;
+        left: 80px;
+    }
+}
