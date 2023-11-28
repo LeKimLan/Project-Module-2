@@ -1,0 +1,14 @@
+
+
+footer {
+    width: 100%;
+    height: $footerHeight;
+    display: flex;
+    justify-content: center;
+    .footer_content {
+        width: 100%;
+        max-width: $maxWidth;
+        display: flex;
+        justify-content: space-between;
+    }
+}

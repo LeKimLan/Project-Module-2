@@ -1,0 +1,14 @@
+
+
+header {
+    width: 100%;
+    height: $headerHeight;
+    display: flex;
+    justify-content: center;
+    .header_content {
+        width: 100%;
+        max-width: $maxWidth;
+        display: flex;
+        justify-content: space-between;
+    }
+}

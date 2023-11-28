@@ -2,14 +2,14 @@
 
 
 import './main.scss'
-import Routes from './routes/Routes'
+import RouteIndex from './routes/RouteIndex'
+import './i18n'
 
 
 export default function App() {
-	
 	return (
 		<>
-			<Routes />
+			<RouteIndex />
 		</>
 	)
 }
