@@ -15,7 +15,7 @@ export default function Footer() {
                         links
                     </div>
                     <div className='map'>
-                        c
+                        map
                     </div>
                 </div>
             </footer>

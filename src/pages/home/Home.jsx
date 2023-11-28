@@ -4,6 +4,7 @@ import React from 'react'
 import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
 import { Outlet } from 'react-router-dom'
+import './home.scss'
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
             <Header></Header>
             <div className='home_page_body'>
                 <div className='body_content'>
+                    Body
                     <Outlet />
                 </div>
             </div>
