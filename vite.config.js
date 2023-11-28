@@ -4,8 +4,7 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-
-
+  
 
   /* Config Alias */
   // Tạo địa chỉ nhánh chính để import vào các components
@@ -30,3 +29,4 @@ export default defineConfig({
     }
   }
 })
+
